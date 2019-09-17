@@ -1,0 +1,219 @@
+2019.09.17 15:16:16 516 INFO    1 ==============================================================
+2019.09.17 15:16:16 614 INFO    1 =  SMPPSim Copyright (C) 2006 Selenium Software Ltd
+2019.09.17 15:16:16 614 INFO    1 =  SMPPSim comes with ABSOLUTELY NO WARRANTY; for details
+2019.09.17 15:16:16 615 INFO    1 =  read the license.txt file that was included in the SMPPSim distribution
+2019.09.17 15:16:16 615 INFO    1 =  This is free software, and you are welcome to redistribute it under
+2019.09.17 15:16:16 615 INFO    1 =  certain conditions; Again, see license.txt for details or read the GNU
+2019.09.17 15:16:16 615 INFO    1 =  GPL license at http://www.gnu.org/licenses/gpl.html
+2019.09.17 15:16:16 616 INFO    1 =  ...... end of legal stuff ......
+2019.09.17 15:16:16 616 INFO    1 ==============================================================
+2019.09.17 15:16:16 616 INFO    1 =  
+2019.09.17 15:16:16 616 INFO    1 =  com.seleniumsoftware.SMPPSim 2.6.11
+2019.09.17 15:16:16 616 INFO    1 =  by Martin Woolley (martin@seleniumsoftware.com)
+2019.09.17 15:16:16 616 INFO    1 =  http://www.seleniumsoftware.com
+2019.09.17 15:16:16 617 INFO    1 =  Running with the following parameters:
+2019.09.17 15:16:16 617 INFO    1 =  SMPP_PORT                               :2775
+2019.09.17 15:16:16 617 INFO    1 =  SMPP_CONNECTION_HANDLERS                :10
+2019.09.17 15:16:16 617 INFO    1 =  CONNECTION_HANDLER_CLASS                :com.seleniumsoftware.SMPPSim.StandardConnectionHandler
+2019.09.17 15:16:16 617 INFO    1 =  PROTOCOL_HANDLER_CLASS                  :com.seleniumsoftware.SMPPSim.StandardProtocolHandler
+2019.09.17 15:16:16 618 INFO    1 =  LIFE_CYCLE_MANAGER                      :com.seleniumsoftware.SMPPSim.LifeCycleManager
+2019.09.17 15:16:16 618 INFO    1 =  SMPP_CONNECTION_HANDLERS                :10
+2019.09.17 15:16:16 618 INFO    1 =  INBOUND_QUEUE_CAPACITY                  :1000
+2019.09.17 15:16:16 618 INFO    1 =  OUTBOUND_QUEUE_CAPACITY                 :1000
+2019.09.17 15:16:16 618 INFO    1 =  MESSAGE_STATE_CHECK_FREQUENCY           :5000
+2019.09.17 15:16:16 619 INFO    1 =  MAX_TIME_ENROUTE                        :10000
+2019.09.17 15:16:16 619 INFO    1 =  PERCENTAGE_THAT_TRANSITION              :75
+2019.09.17 15:16:16 620 INFO    1 =  PERCENTAGE_DELIVERED                    :90
+2019.09.17 15:16:16 621 INFO    1 =  PERCENTAGE_UNDELIVERABLE                :6
+2019.09.17 15:16:16 622 INFO    1 =  PERCENTAGE_ACCEPTED                     :2
+2019.09.17 15:16:16 622 INFO    1 =  PERCENTAGE_REJECTED                     :2
+2019.09.17 15:16:16 628 INFO    1 =  DISCARD_FROM_QUEUE_AFTER                :60000
+2019.09.17 15:16:16 630 INFO    1 =  OUTBIND_ENABLED                         :false
+2019.09.17 15:16:16 631 INFO    1 =  OUTBIND_ESME_IP_ADDRESS                 :null
+2019.09.17 15:16:16 631 INFO    1 =  OUTBIND_ESME_PORT		                :0
+2019.09.17 15:16:16 632 INFO    1 =  OUTBIND_ESME_PASSWORD                   :password
+2019.09.17 15:16:16 633 INFO    1 =  HTTP_PORT                               :88
+2019.09.17 15:16:16 634 INFO    1 =  HTTP_THREADS                            :1
+2019.09.17 15:16:16 634 INFO    1 =  DOCROOT                                 :www
+2019.09.17 15:16:16 635 INFO    1 =  AUTHORISED_FILES                        :/css/style.css,/index.htm,/inject_mo.htm,/favicon.ico,/images/logo.gif,/images/dots.gif,/user-guide.htm,/images/homepage.gif,/images/inject_mo.gif
+2019.09.17 15:16:16 636 INFO    1 =  INJECT_MO_PAGE                          :/inject_mo.htm
+2019.09.17 15:16:16 639 INFO    1 =  SMSCID                                  :SMPPSim
+2019.09.17 15:16:16 640 INFO    1 =  DELIVERY_MESSAGES_PER_MINUTE            :0
+2019.09.17 15:16:16 641 INFO    1 =  DELIVER_MESSAGES_FILE                   :N/A
+2019.09.17 15:16:16 642 INFO    1 =  LOOPBACK                                :false
+2019.09.17 15:16:16 643 INFO    1 =  CAPTURE_REQUESTS_BINARY                 :false
+2019.09.17 15:16:16 643 INFO    1 =  CAPTURE_REQUESTS_BINARY_TO_FILE         :sme_binary.capture
+2019.09.17 15:16:16 644 INFO    1 =  CAPTURE_RESPONSES_BINARY                :false
+2019.09.17 15:16:16 645 INFO    1 =  CAPTURE_RESPONSES_BINARY_TO_FILE        :smppsim_binary.capture
+2019.09.17 15:16:16 645 INFO    1 =  CAPTURE_REQUESTS_DECODED                :false
+2019.09.17 15:16:16 646 INFO    1 =  CAPTURE_REQUESTS_DECODED_TO_FILE        :sme_decoded.capture
+2019.09.17 15:16:16 647 INFO    1 =  CAPTURE_RESPONSES_DECODED               :false
+2019.09.17 15:16:16 648 INFO    1 =  CAPTURE_RESPONSES_DECODED_TO_FILE       :smppsim_decoded.capture
+2019.09.17 15:16:16 651 INFO    1 =  CALLBACK                                :false
+2019.09.17 15:16:16 652 INFO    1 = Delivery receipts will always have optional parameter with TLV=5123/10/34343132333435363738
+2019.09.17 15:16:16 653 INFO    1 = Delivery receipts will include standard optional parameters if client supports 3.4 or later
+2019.09.17 15:16:16 654 INFO    1 =  
+2019.09.17 15:16:16 655 INFO    1 ==============================================================
+2019.09.17 15:16:16 673 INFO    10 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 673 INFO    9 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 673 INFO    11 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 673 INFO    14 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 673 INFO    13 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 673 INFO    12 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 674 INFO    15 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 676 INFO    17 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 678 INFO    18 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 679 INFO    16 StandardConnectionHandler waiting for connection
+2019.09.17 15:16:16 682 INFO    19 Starting HttpHandler thread. Listening on port 88 for connections
+2019.09.17 15:16:16 683 INFO    20 Starting InboundQueue service....
+2019.09.17 15:16:16 694 INFO    21 Starting Lifecycle Service (OutboundQueue)
+2019.09.17 15:16:16 694 INFO    21 Lifecycle Service: OutboundQueue is empty  - waiting
+2019.09.17 15:16:16 696 INFO    20 InboundQueue: empty  - waiting
+2019.09.17 15:16:16 698 INFO    23 Starting DelayedInboundQueue service....
+2019.09.17 15:16:32 629 INFO    10 StandardConnectionHandler accepted a connection
+2019.09.17 15:16:32 640 INFO    10 Protocol handler is of type StandardProtocolHandler
+2019.09.17 15:16:32 641 INFO    10 : BIND_TRANSCEIVER:
+2019.09.17 15:16:32 642 INFO    10 Hex dump (42) bytes:
+2019.09.17 15:16:32 643 INFO    10 0000002A:00000009:00000000:00000001:
+2019.09.17 15:16:32 643 INFO    10 736D7070:636C6965:6E743100:70617373:
+2019.09.17 15:16:32 644 INFO    10 776F7264:00005000:0000
+2019.09.17 15:16:32 645 INFO    10 cmd_len=42,cmd_id=9,cmd_status=0,seq_no=1,system_id=smppclient1
+2019.09.17 15:16:32 646 INFO    10 password=password,system_type=,interface_version=80,addr_ton=0,addr_npi=0
+2019.09.17 15:16:32 647 INFO    10 address_range=
+2019.09.17 15:16:32 650 INFO    10  
+2019.09.17 15:16:32 650 INFO    10 StandardProtocolHandler: setting address range to 
+2019.09.17 15:16:32 652 INFO    10 New transceiver session bound to SMPPSim
+2019.09.17 15:16:32 652 INFO    10 : BIND_TRANSCEIVER_RESP:
+2019.09.17 15:16:32 653 INFO    10 Hex dump (24) bytes:
+2019.09.17 15:16:32 654 INFO    10 00000018:80000009:00000000:00000001:
+2019.09.17 15:16:32 654 INFO    10 534D5050:53696D00:
+2019.09.17 15:16:32 655 INFO    10 cmd_len=0,cmd_id=-2147483639,cmd_status=0,seq_no=1,system_id=SMPPSim
+2019.09.17 15:16:32 656 INFO    10  
+2019.09.17 15:16:32 657 INFO    10 1 receivers connected and bound
+2019.09.17 15:16:32 660 INFO    20 InboundQueue: empty  - waiting
+2019.09.17 15:16:32 663 INFO    10 : Standard SUBMIT_SM:
+2019.09.17 15:16:32 664 INFO    10 Hex dump (77) bytes:
+2019.09.17 15:16:32 665 INFO    10 0000004D:00000004:00000000:00000002:
+2019.09.17 15:16:32 665 INFO    10 00000000:00003039:30333337:37363335:
+2019.09.17 15:16:32 666 INFO    10 37000000:00000000:00010021:48656C6C:
+2019.09.17 15:16:32 667 INFO    10 6F205469:6D6F7468:79204141:41414141:
+2019.09.17 15:16:32 668 INFO    10 41414141:41414141:41414141:21
+2019.09.17 15:16:32 671 INFO    10 cmd_len=77,cmd_id=4,cmd_status=0,seq_no=2,service_type=,source_addr_ton=0
+2019.09.17 15:16:32 672 INFO    10 source_addr_npi=0,source_addr=,dest_addr_ton=0,dest_addr_npi=0
+2019.09.17 15:16:32 673 INFO    10 dest_addr=09033776357,esm_class=0,protocol_ID=0,priority_flag=0
+2019.09.17 15:16:32 673 INFO    10 schedule_delivery_time=,validity_period=,registered_delivery_flag=0
+2019.09.17 15:16:32 674 INFO    10 replace_if_present_flag=0,data_coding=1,sm_default_msg_id=0,sm_length=33
+2019.09.17 15:16:32 675 INFO    10 short_message=Hello Timothy AAAAAAAAAAAAAAAAAA!
+2019.09.17 15:16:32 676 INFO    10  
+2019.09.17 15:16:32 679 INFO    10 Validity period is not set: defaulting to 5 minutes from now
+2019.09.17 15:16:32 685 INFO    10 Generated default validity period=190917152132000+
+2019.09.17 15:16:32 685 INFO    21 Assessing state of 1 messages in the OutboundQueue
+2019.09.17 15:16:32 685 INFO    10 :SUBMIT_SM_RESP:
+2019.09.17 15:16:32 687 INFO    10 Hex dump (18) bytes:
+2019.09.17 15:16:32 688 INFO    10 00000012:80000004:00000000:00000002:
+2019.09.17 15:16:32 689 INFO    10 3000
+2019.09.17 15:16:32 690 INFO    10 cmd_len=0,cmd_id=-2147483644,cmd_status=0,seq_no=2,message_id=0
+2019.09.17 15:16:32 692 INFO    10  
+2019.09.17 15:16:32 694 INFO    10 SubmitSM processing - response written to connection
+2019.09.17 15:16:37 686 INFO    21 Assessing state of 1 messages in the OutboundQueue
+2019.09.17 15:16:37 693 INFO    21 Message:2 state=DELIVERED
+2019.09.17 15:16:42 687 INFO    21 Assessing state of 1 messages in the OutboundQueue
+2019.09.17 15:17:16 700 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:21:18 141 WARNING 21 It's taking longer to process the OutboundQueue than MESSAGE_STATE_CHECK_FREQUENCY milliseconds. Recommend this value is increased
+2019.09.17 15:21:18 154 INFO    21 Lifecycle Service: OutboundQueue is empty  - waiting
+2019.09.17 15:22:18 151 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:23:18 152 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:24:18 153 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:25:18 154 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:26:18 154 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:27:18 155 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:28:18 155 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:29:18 165 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:30:18 167 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:31:18 168 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:32:18 169 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:33:18 171 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:34:18 171 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:35:18 172 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:36:18 173 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:37:18 174 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:38:18 174 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:39:18 175 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:40:18 175 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:41:18 177 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:42:18 178 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:43:18 178 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:44:18 179 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:45:18 179 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:46:18 180 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:47:18 182 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:48:18 183 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:49:18 185 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:50:18 185 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:51:18 186 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:52:18 186 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:53:18 188 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:54:18 189 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:55:18 189 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:56:18 191 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:57:18 193 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:58:18 195 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 15:59:18 196 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:00:18 198 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:01:18 199 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:02:18 199 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:03:18 204 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:04:18 207 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:05:18 208 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:06:18 209 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:07:18 211 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:08:18 212 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:09:18 213 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:10:18 213 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:11:18 214 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:12:18 214 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:13:18 214 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:14:18 215 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:15:18 216 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:16:18 218 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:17:18 221 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:18:18 222 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:19:18 229 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:20:18 231 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:21:18 232 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:22:18 234 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:23:18 235 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:24:18 235 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:25:18 235 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:26:18 239 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:27:18 239 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:28:18 240 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:29:18 240 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:30:18 241 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:31:18 241 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:32:18 244 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:33:18 245 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:34:18 245 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:35:18 246 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:36:18 246 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:37:18 246 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:38:18 247 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:39:18 247 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:40:18 248 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:41:18 249 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:42:18 250 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:43:18 250 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:44:18 251 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:45:18 252 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:46:18 252 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:47:18 253 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:48:18 255 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:49:18 256 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:50:18 262 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:51:18 263 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:52:18 264 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:53:18 264 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:54:18 265 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:55:18 265 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:56:18 265 INFO    23 Processing 0 messages in the delayed inbound queue
+2019.09.17 16:57:18 266 INFO    23 Processing 0 messages in the delayed inbound queue
